@@ -1,0 +1,158 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #000000;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.text-white{
+  color: #d6d2c4 ; 
+  font-family: Poppins;
+}
+.heading{
+  text-align: center;
+  font-weight: regular;
+  font-size: 2rem;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.center-form{
+  margin-top: 10px;
+  display:flex;
+  flex-direction:row;
+  justify-content: center;
+}
+.input{
+  width: 200px;
+  height: 2rem;
+  outline: none;
+  border-radius:5px;
+  border-color: #d6d2c4;
+  font-size: 1rem;
+  background-color:#000000;
+  color:#d6d2c4;
+  padding:3px 6px;
+  margin:0 10px;
+}
+.input:hover{
+outline: none;
+}
+.btn{
+  height: 3rem;
+  outline: none;
+  border-radius:5px;
+  border-color: #d6d2c4;
+  font-size: 1.25rem;
+  color:#d6d2c4;
+  background-color:#000000;
+  /* padding: 6px; */
+  /* margin:0 10px; */
+}
+.btn:hover{
+  background-color:#d6d2c4;
+  color:#000000;
+}
+.title{
+  text-align: center;
+  flex-grow: 1;
+  flex-wrap: wrap;
+}
+.serial{
+  padding:0 2rem;
+}
+.item-align{
+  display:flex;
+  flex-direction: row;
+  justify-content:space-around;
+  border: 1px solid #fff5ea;
+}
+.warning{
+  text-align: center;
+}
+.list{
+  margin:1rem 3rem;
+}
+.balance-text{
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+.danger{
+  color:#ff1e56;
+}
+.safe{
+  color:#28df99;
+}
+.res-btn{
+  display: flex;
+  justify-content: center;
+  margin: 12px 0px;
+}
+.res-inp{
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+}
+.list-heading{
+  text-align: center;
+  color :#d6d2c4;
+  font-size: 1.5rem;
+  margin: 0;
+}
+.balance-div{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+@media (max-width:768px) {
+  .list{
+      margin: 0;
+  }
+.res-inp{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.res-btn{
+  display:flex;
+  margin: 12px 0;
+  justify-content: center;
+}
+.balance-div{
+  flex-direction: column;
+}
+}
+
+
+body::-webkit-scrollbar {
+  background-color: #1F2937;
+  width: 16px;
+}
+
+/* background of the scrollbar except button or resizer */
+body::-webkit-scrollbar-track {
+  background-color: #1F2937;
+}
+
+/* scrollbar itself */
+body::-webkit-scrollbar-thumb {
+  background-color: #D1D5DB;
+  border-radius: 16px;
+  border: 4px solid #1F2937;
+}
+
+/* set button(top and bottom of the scrollbar) */
+body::-webkit-scrollbar-button {
+  display:none;
+}
